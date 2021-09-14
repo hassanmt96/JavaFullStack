@@ -1,4 +1,4 @@
-## Java FullStack Application
+## Java FullStack Banking Application
 
   <br>
 </h1>
@@ -19,7 +19,8 @@
 
 - User login and registration
   - maintain and update the user info
--
+- View Transaction Page of Data for a User that is logged in
+- 
 
 ## How To Use
 

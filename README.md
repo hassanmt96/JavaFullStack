@@ -16,7 +16,7 @@
 </p>
 
 ## How To Use
-  for checking process, see process record
+  for checking process, see step record
   
   
 ## Key Features

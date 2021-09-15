@@ -14,10 +14,11 @@
   <a href="#key-features">Key Features</a> •
   <a href="#how-to-use">How To Use</a> •
 </p>
-## for process
-  see our record step
+
 ## How To Use
   for checking process, see process record
+  
+  
 ## Key Features
 
 - User login and registration

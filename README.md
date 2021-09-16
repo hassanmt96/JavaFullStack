@@ -8,7 +8,7 @@
 </a>,
 <a href="http://electron.atom.io" target="_blank">Daniel
 </a>, &
-<a href="http://electron.atom.io" target="_blank">Hassan</h4>
+<a href="http://electron.atom.io" target="_blank">Hassan</h4
 
 <p align="center">
   <a href="#key-features">Key Features</a> •
@@ -25,6 +25,8 @@
   - maintain and update the user info
 - View Transaction Page of Data for a User that is logged in
 - 
+## Controlling admin rights
+- Test
 
 ## How To Use
 

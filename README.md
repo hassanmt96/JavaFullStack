@@ -1,41 +1,60 @@
-## Java FullStack Banking Application
-
-  <br>
+<h1 align="center">
+	<img
+		width="300"
+		alt="Java Bank"
+		src="./img/java-broke-bank-banner.svg">
 </h1>
 
-<h4 align="center">A minimal full-stack java application built by 
-<a href="http://electron.atom.io" target="_blank">Zhang
-</a>,
-<a href="http://electron.atom.io" target="_blank">Daniel
-</a>, &
-<a href="http://electron.atom.io" target="_blank">Hassan</h4>
+<h3 align="center">
+	Modern Java Bank 
+</h3>
 
 <p align="center">
-  <a href="#key-features">Key Features</a> •
-  <a href="#how-to-use">How To Use</a> •
+	<strong>
+    Built by
+		<a href="https://github.com/darvcode">Daniel</a>
+		,
+		<a href="https://github.com/dntyfate">Zhang</a>
+		&
+		<a href="https://github.com/hassanmt96">Hassan</a>
+	</strong>
 </p>
 
-## How To Use
-  for checking process, see step record
-  
-  
-## Key Features
+## Overview
 
-- User login and registration
-  - maintain and update the user info
-- View Transaction Page of Data for a User that is logged in
-- 
+- **Modern Transactional Interface.** View User Bank Information online seamlessly through UI.
+- **Money Transfer.** Seamlessly connect to a wallet and send money to another user.
+- **Responsive interface.** The client works smoothly on desktop and mobile.
+- **Synchronized experience.** Always resume where you left off no matter what device.
 
-## How To Use
+## Languages and Frameworks Used
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+- **Java**- Basic syntax language for the application's backend
+- **Spring**- Framework in Java that will allow the web client to run the api's for all user abilities.
+- **Hibernate**- A configuration for the Spring platform to manage the entities.
+- **Angular** - Responsive frontend language used that collects and processes information from the api to each individual component.
 
-```bash
-# Install dependencies
-$ npm install
+## Installation and usage
 
-# Run the app
-$ npm start
+Java Full Stack requires latest [Node.js](https://nodejs.org/) LTS version or more recent.
+[Yarn package manager](https://yarnpkg.com/) is also recommended.  
+If you want to install with npm, `--unsafe-perm` is required for a correct install.
+
+### Running from source
+
+The following commands install and run the development version of Java Full Stack:
+
+```sh
+git clone https://github.com/hassanmt96/JavaFullStack.git
+cd JavaFullStack
+npm install
+npm start
 ```
 
-Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
+⚠️ While it is the most recent codebase, this is not production-ready! Run at
+your own risk. It is also not recommended to run this as root.
+
+## Development setup
+
+Simply follow the instructions to run the application from source above, on your own
+fork.

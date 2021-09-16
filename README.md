@@ -5,7 +5,7 @@
 		src="./img/java-broke-bank-banner.svg">
 </h1>
 
-<<<<<<< HEAD
+
 <h3 align="center">
 	Modern Java Bank 
 </h3>
@@ -38,7 +38,7 @@
 
 ## Languages and Frameworks Used
 
-<<<<<<< HEAD
+
 - **Java**- Basic syntax language for the application's backend
 - **Spring**- Framework in Java that will allow the web client to run the api's for all user abilities.
 - **Hibernate**- A configuration for the Spring platform to manage the entities.
@@ -48,9 +48,6 @@
   - maintain and update the user info
 - View Transaction Page of Data for a User that is logged in
 - 
-## Controlling admin rights
-- Test
->>>>>>> 9ce580b8e109ce8b503687299ebe2005e305662f
 
 ## Installation and usage
 

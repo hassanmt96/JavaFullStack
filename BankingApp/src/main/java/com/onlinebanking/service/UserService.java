@@ -34,4 +34,8 @@ public interface UserService {
 
     void disableUser(String username);
 
+	boolean isValidEmailAddress(String email);
+
+	boolean isValidPhone(String phone);
+
 }

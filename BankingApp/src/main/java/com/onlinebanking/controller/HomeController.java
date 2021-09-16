@@ -55,6 +55,11 @@ public class HomeController {
             if (userService.checkEmailExists(user.getEmail())) {
                 model.addAttribute("emailExists", true);
             }
+            
+            
+            if(!userService.isValidEmailAddress(user.getEmail())) {
+                model.addAttribute("emailExists", true);
+            }
 
             if (userService.checkUsernameExists(user.getUsername())) {
                 model.addAttribute("usernameExists", true);

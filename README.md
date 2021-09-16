@@ -15,6 +15,10 @@
   <a href="#how-to-use">How To Use</a> •
 </p>
 
+## How To Use
+  for checking process, see step record
+  
+  
 ## Key Features
 
 - User login and registration

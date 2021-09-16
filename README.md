@@ -16,7 +16,7 @@
 <a href="http://electron.atom.io" target="_blank">Daniel
 </a>, &
 <a href="http://electron.atom.io" target="_blank">Hassan</h4
->>>>>>> 9ce580b8e109ce8b503687299ebe2005e305662f
+
 
 <p align="center">
 	<strong>

@@ -5,9 +5,18 @@
 		src="./img/java-broke-bank-banner.svg">
 </h1>
 
+<<<<<<< HEAD
 <h3 align="center">
 	Modern Java Bank 
 </h3>
+=======
+<h4 align="center">A minimal full-stack java application built by 
+<a href="http://electron.atom.io" target="_blank">Zhang
+</a>,
+<a href="http://electron.atom.io" target="_blank">Daniel
+</a>, &
+<a href="http://electron.atom.io" target="_blank">Hassan</h4
+>>>>>>> 9ce580b8e109ce8b503687299ebe2005e305662f
 
 <p align="center">
 	<strong>
@@ -29,10 +38,19 @@
 
 ## Languages and Frameworks Used
 
+<<<<<<< HEAD
 - **Java**- Basic syntax language for the application's backend
 - **Spring**- Framework in Java that will allow the web client to run the api's for all user abilities.
 - **Hibernate**- A configuration for the Spring platform to manage the entities.
 - **Angular** - Responsive frontend language used that collects and processes information from the api to each individual component.
+=======
+- User login and registration
+  - maintain and update the user info
+- View Transaction Page of Data for a User that is logged in
+- 
+## Controlling admin rights
+- Test
+>>>>>>> 9ce580b8e109ce8b503687299ebe2005e305662f
 
 ## Installation and usage
 

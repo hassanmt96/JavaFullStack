@@ -6,7 +6,6 @@ import com.onlinebanking.entity.Recipient;
 
 import java.util.List;
 
-
 public interface RecipientDao extends CrudRepository<Recipient, Long> {
 
     List<Recipient> findAll();

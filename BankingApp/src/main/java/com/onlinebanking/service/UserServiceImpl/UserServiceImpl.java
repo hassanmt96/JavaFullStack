@@ -86,6 +86,14 @@ public class UserServiceImpl implements UserService {
         return null != findByEmail(email);
 
     }
+
+    public User saveUser(User user) {
+        return userDao.save(user);
+    }
+
+    public List<User> findUserList() {
+        return userDao.findAll();
+    }
     
     public boolean isValidEmailAddress(String email) {
         String ePattern = "^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$";
@@ -97,14 +105,6 @@ public class UserServiceImpl implements UserService {
     public boolean isValidPhone(String phone) {
     	String regex = "\\d{3}-\\d{3}-\\d{4}"; // XXX-XXX-XXXX
         return phone.matches(regex);
-    }
-
-    public User saveUser(User user) {
-        return userDao.save(user);
-    }
-
-    public List<User> findUserList() {
-        return userDao.findAll();
     }
 
     public void enableUser(String username) {

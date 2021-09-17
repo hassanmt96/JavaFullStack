@@ -5,6 +5,7 @@ import java.security.Principal;
 import com.onlinebanking.entity.PrimaryAccount;
 import com.onlinebanking.entity.SavingsAccount;
 
+
 public interface AccountService {
 
     PrimaryAccount createPrimaryAccount();

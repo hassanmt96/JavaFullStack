@@ -1,4 +1,16 @@
 --
+-- Dumping data for table `appointment`
+--
+
+INSERT INTO `appointment` VALUES
+(1,'','2019-01-25 14:01:00','Want to see someone','Jakarta',1),
+(2,'\0','2019-01-30 15:01:00','Take credit','Bandung',1),
+(3,'','2019-02-16 15:02:00','Consultation','Cimahi',1);
+/*!40000 ALTER TABLE `appointment` ENABLE KEYS */;
+UNLOCK TABLES;
+
+
+--
 -- Dumping data for table `primary_account`
 --
 

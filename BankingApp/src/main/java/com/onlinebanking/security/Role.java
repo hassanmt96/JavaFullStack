@@ -8,6 +8,7 @@ import javax.persistence.OneToMany;
 import java.util.HashSet;
 import java.util.Set;
 
+
 @Entity
 public class Role {
 

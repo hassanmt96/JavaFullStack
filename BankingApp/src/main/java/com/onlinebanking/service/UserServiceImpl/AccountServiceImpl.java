@@ -22,7 +22,7 @@ import java.util.Date;
 @Service
 public class AccountServiceImpl implements AccountService {
 
-    private static int nextAccountNumber = 123456789;
+    private static int nextAccountNumber = 11223101;
 
     @Autowired
     private PrimaryAccountDao primaryAccountDao;

@@ -19,6 +19,7 @@ import java.security.Principal;
 import java.util.HashSet;
 import java.util.Set;
 
+
 @Controller
 public class HomeController {
 
@@ -50,19 +51,21 @@ public class HomeController {
     @PostMapping("/signup")
     public String signupPost(@ModelAttribute("user") User user, Model model) {
 
-        if (userService.checkUserExists(user.getUsername(), user.getEmail())) {
+        if (userService.checkUserExists(user.getUsername(), user.getEmail()) ==true || userService.isValidEmailAddress(user.getEmail())==false
+        		||userService.isValidPhone(user.getPhone())==false
+        		) {
 
-            if (userService.checkEmailExists(user.getEmail())) {
+            if (userService.checkEmailExists(user.getEmail())==true || userService.isValidEmailAddress(user.getEmail())==false) {
                 model.addAttribute("emailExists", true);
             }
             
-            
-            if(!userService.isValidEmailAddress(user.getEmail())) {
-                model.addAttribute("emailExists", true);
-            }
 
             if (userService.checkUsernameExists(user.getUsername())) {
                 model.addAttribute("usernameExists", true);
+            }
+            
+            if (userService.isValidPhone(user.getPhone())==false) {
+                model.addAttribute("phoneExists", true);
             }
 
             return "signup";

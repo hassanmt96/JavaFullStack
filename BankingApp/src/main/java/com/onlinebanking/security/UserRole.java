@@ -12,6 +12,7 @@ import javax.persistence.Table;
 
 import com.onlinebanking.entity.User;
 
+
 @Entity
 @Table(name = "user_role")
 public class UserRole {

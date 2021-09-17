@@ -15,6 +15,7 @@ import com.onlinebanking.service.UserServiceImpl.UserSecurityService;
 
 import java.security.SecureRandom;
 
+
 @Configuration
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true)

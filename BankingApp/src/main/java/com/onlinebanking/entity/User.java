@@ -46,6 +46,9 @@ public class User implements UserDetails {
     @OneToOne
     private SavingsAccount savingsAccount;
 
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @JsonIgnore
+    private List<Appointment> appointmentList;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<Recipient> recipientList;
@@ -110,6 +113,13 @@ public class User implements UserDetails {
         this.phone = phone;
     }
 
+    public List<Appointment> getAppointmentList() {
+        return appointmentList;
+    }
+
+    public void setAppointmentList(List<Appointment> appointmentList) {
+        this.appointmentList = appointmentList;
+    }
 
     public List<Recipient> getRecipientList() {
         return recipientList;
@@ -153,6 +163,7 @@ public class User implements UserDetails {
                 ", lastName='" + lastName + '\'' +
                 ", email='" + email + '\'' +
                 ", phone='" + phone + '\'' +
+                ", appointmentList=" + appointmentList +
                 ", recipientList=" + recipientList +
                 ", userRoles=" + userRoles +
                 '}';

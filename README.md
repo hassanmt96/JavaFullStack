@@ -49,27 +49,22 @@
 - View Transaction Page of Data for a User that is logged in
 - 
 
-## Installation and usage
-
-Java Full Stack requires latest [Node.js](https://nodejs.org/) LTS version or more recent.
-[Yarn package manager](https://yarnpkg.com/) is also recommended.  
-If you want to install with npm, `--unsafe-perm` is required for a correct install.
-
-### Running from source
-
-The following commands install and run the development version of Java Full Stack:
-
-```sh
-git clone https://github.com/hassanmt96/JavaFullStack.git
-cd JavaFullStack
-npm install
-npm start
+# How to run this file
+1. Copy the file
 ```
+git clone https://github.com/hassanmt96/JavaFullStack
+```
+2. open the application.properities file, change username and password to your local setting.
+3. Run the application
+```
+mvn clean spring-boot:run
 
 ⚠️ While it is the most recent codebase, this is not production-ready! Run at
 your own risk. It is also not recommended to run this as root.
 
-## Development setup
+## Explanation of part of the code
+The account number starts from 123456789. For each new account, the account number will plus 1.
 
-Simply follow the instructions to run the application from source above, on your own
-fork.
+## Image Reference
+
+Background image: https://www.freeiconspng.com/img/13194

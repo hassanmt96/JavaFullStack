@@ -58,7 +58,7 @@ git clone https://github.com/hassanmt96/JavaFullStack
 3. Run the application
 ```
 mvn clean spring-boot:run
-
+```
 ⚠️ While it is the most recent codebase, this is not production-ready! Run at
 your own risk. It is also not recommended to run this as root.
 

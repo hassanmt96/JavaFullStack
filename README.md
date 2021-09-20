@@ -44,7 +44,7 @@
 - **Hibernate**- A configuration for the Spring platform to manage the entities.
 - **Angular** - Responsive frontend language used that collects and processes information from the api to each individual component.
 
-# How to run this file
+## How to run this file
 1. Copy the file
 ```
 git clone https://github.com/hassanmt96/JavaFullStack

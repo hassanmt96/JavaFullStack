@@ -59,7 +59,8 @@ your own risk. It is also not recommended to run this as root.
 
 ## Functions
 Following the guide 
-
+## Screen shot
+<img src="./img/index_page.png">
 ## Image Reference
 
 Background image: https://www.freeiconspng.com/img/13194

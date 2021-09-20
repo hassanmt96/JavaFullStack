@@ -57,8 +57,8 @@ mvn clean spring-boot:run
 ⚠️ While it is the most recent codebase, this is not production-ready! Run at
 your own risk. It is also not recommended to run this as root.
 
-## Explanation of part of the code
-The account number starts from 123456789. For each new account, the account number will plus 1.
+## Functions
+Following the guide 
 
 ## Image Reference
 

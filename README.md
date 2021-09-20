@@ -60,7 +60,10 @@ your own risk. It is also not recommended to run this as root.
 ## Functions
 Following the guide 
 ## Screen shot
+index
 <img src="./img/index_page.PNG">
+signup
+<img src="./img/signup_page.PNG">
 ## Image Reference
 
 Background image: https://www.freeiconspng.com/img/13194

@@ -43,11 +43,6 @@
 - **Spring**- Framework in Java that will allow the web client to run the api's for all user abilities.
 - **Hibernate**- A configuration for the Spring platform to manage the entities.
 - **Angular** - Responsive frontend language used that collects and processes information from the api to each individual component.
-=======
-- User login and registration
-  - maintain and update the user info
-- View Transaction Page of Data for a User that is logged in
-- 
 
 # How to run this file
 1. Copy the file

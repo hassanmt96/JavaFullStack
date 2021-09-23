@@ -9,14 +9,6 @@
 <h3 align="center">
 	Modern Java Bank 
 </h3>
-=======
-<h4 align="center">A minimal full-stack java application built by 
-<a href="http://electron.atom.io" target="_blank">Zhang
-</a>,
-<a href="http://electron.atom.io" target="_blank">Daniel
-</a>, &
-<a href="http://electron.atom.io" target="_blank">Hassan</h4
-
 
 <p align="center">
 	<strong>
